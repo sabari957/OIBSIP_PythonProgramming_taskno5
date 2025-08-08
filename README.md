@@ -22,13 +22,20 @@ To build a simple chat application using Python’s socket programming that allo
 
 # Sample Output
 
-Enter password length: 16
-Include uppercase letters? (y/n): y
-Include lowercase letters? (y/n): y
-Include digits? (y/n): y
-Include special characters? (y/n): y
+[Server] Started and waiting for clients...
+[User1] Connected to server.[Server] Client connected from ('127.0.0.1', 41046)
+[User2] Connected to server.
+[Server] Client connected from ('127.0.0.1', 41056)
+[Server received]: User2: Hello
+[User1 got]: User2: Hello
+[Server received]: User1: Hi
+[User2 got]: User1: Hi
+[Server received]: User1: How are you?
+[User2 got]: User1: How are you?
+[Server received]: User2: I'm good, thanks!
+[User1 got]: User2: I'm good, thanks!
 
-Generated Password: j8!Kz@5pQw2#LmXr
+
 
 # Tools Used:
 
